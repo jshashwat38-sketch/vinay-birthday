@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 20th Birthday Vinay! | Level 20 Unlocked</title>
+  <meta name="description" content="A heavy animated cinematic 20th birthday celebration website crafted for Vinay. Born on 25/10/2006. Level 20 unlocked!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Animated Canvases -->
+  <canvas id="ambient-canvas"></canvas>
+  <canvas id="fireworks-canvas"></canvas>
+
+  <!-- Glowing Ambient Light Orbs -->
+  <div class="ambient-orb orb-1"></div>
+  <div class="ambient-orb orb-2"></div>
+  <div class="ambient-orb orb-3"></div>
+
+  <!-- Custom Cursor Sparkles -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- ==========================================================================
+       VIP GATEWAY / CURTAIN OPENER
+       ========================================================================== -->
+  <section id="vip-gateway" aria-label="VIP Entry Gateway">
+    <div class="gateway-terminal">
+      <div class="badge-tag">
+        <span class="pulsing-dot"></span>
+        <span>Biometric Clearance Protocol</span>
+      </div>
+      <h1 class="gateway-title">AUTHENTICATING VIP</h1>
+      <p class="gateway-subtitle">Initiating Chapter 20 Celebration Protocol</p>
+
+      <div class="gateway-spec-box">
+        <div class="gateway-spec-item">
+          <div class="label">SUBJECT</div>
+          <div class="val highlight">VINAY</div>
+        </div>
+        <div class="gateway-spec-item">
+          <div class="label">DATE OF BIRTH</div>
+          <div class="val">25 / 10 / 2006</div>
+        </div>
+        <div class="gateway-spec-item">
+          <div class="label">CURRENT STATUS</div>
+          <div class="val highlight">TURNING 20 (LVL 20)</div>
+        </div>
+        <div class="gateway-spec-item">
+          <div class="label">CLEARANCE</div>
+          <div class="val">GOD TIER / UNRESTRICTED</div>
+        </div>
+      </div>
+
+      <button id="unlock-experience-btn" class="unlock-btn">
+        <span>👑 UNLOCK CELEBRATION</span>
+      </button>
+      <div class="audio-hint">
+        <span>🔊 Interactive sound effects & synth beats will be initialized</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TOP NAVIGATION BAR
+       ========================================================================== -->
+  <header class="top-nav">
+    <div class="top-brand">
+      <span class="brand-icon">✦</span>
+      <span class="brand-name">VINAY • CHAPTER 20</span>
+    </div>
+
+    <div class="top-actions">
+      <button id="music-toggle" class="music-toggle-btn" aria-label="Toggle background music">
+        <div class="sound-wave">
+          <div class="sound-bar"></div>
+          <div class="sound-bar"></div>
+          <div class="sound-bar"></div>
+          <div class="sound-bar"></div>
+        </div>
+        <span class="btn-text">AUDIO: ON</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================== -->
+  <main class="main-wrapper">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-header">
+        <div class="hero-meta-badge">
+          <span>✨ 25 OCTOBER 2006 — TODAY ✨</span>
+        </div>
+        <h1 class="hero-super-title">HAPPY BIRTHDAY<br>VINAY!</h1>
+        <p class="hero-subtext">
+          Two decades of brilliance, unyielding ambition, and unmatched aura. Level 20 is officially unlocked. Today, the entire squad celebrates your legend!
+        </p>
+      </div>
+
+      <!-- Grand Skyscraper Penthouse Celebration Banner -->
+      <div class="hero-banner-card">
+        <img src="assets/images/vinay_banner.jpg" alt="Vinay 20th Birthday Celebration Penthouse" class="hero-banner-img">
+        <div class="hero-banner-overlay">
+          <div class="banner-pill">★ THE GOLDEN MILESTONE ★</div>
+          <h2 class="banner-heading">TOAST TO <span>CHAPTER 20</span></h2>
+          <p class="banner-desc">
+            Surrounded by fireworks, electric energy, and the crew. Here's to health, wealth, and conquering every peak ahead.
+          </p>
+        </div>
+      </div>
+
+      <!-- Action Row -->
+      <div class="hero-action-row">
+        <a href="#cake-chamber" class="btn-primary">
+          <span>🎂 Blow Birthday Candles</span>
+        </a>
+        <a href="#multiverse" class="btn-secondary">
+          <span>🌌 Explore Multiverse Avatars</span>
+        </a>
+        <a href="#wishes-wall" class="btn-secondary">
+          <span>💌 Leave Birthday Note</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         LIVE LIFE MATRIX / REAL-TIME CHRONOMETER
+         ========================================================================== -->
+    <section class="matrix-section" id="chronometer">
+      <div class="section-tag">DATA TELEMETRY • DOB 25.10.2006</div>
+      <h2 class="section-title">20 YEARS OF GREATNESS</h2>
+      <p class="section-desc">
+        A live telemetry of every single golden moment since Vinay entered the world on October 25th, 2006.
+      </p>
+
+      <div class="chronometer-board">
+        <div class="chrono-grid">
+          <div class="chrono-card highlight">
+            <div class="chrono-num" id="stat-years">20</div>
+            <div class="chrono-label">Years of Mastery</div>
+          </div>
+          <div class="chrono-card">
+            <div class="chrono-num" id="stat-months">240</div>
+            <div class="chrono-label">Months Lived</div>
+          </div>
+          <div class="chrono-card">
+            <div class="chrono-num" id="stat-days">7,305</div>
+            <div class="chrono-label">Days of Conquest</div>
+          </div>
+          <div class="chrono-card">
+            <div class="chrono-num" id="stat-hours">175,320</div>
+            <div class="chrono-label">Hours of Grind</div>
+          </div>
+          <div class="chrono-card">
+            <div class="chrono-num" id="stat-mins">10,519,200</div>
+            <div class="chrono-label">Minutes of Impact</div>
+          </div>
+        </div>
+
+        <div class="live-seconds-banner">
+          <div class="live-seconds-title">
+            <span class="pulsing-dot"></span>
+            <span>Live Real-Time Seconds Elapsed:</span>
+          </div>
+          <div class="live-seconds-value" id="stat-secs">631,152,000</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         THE MULTIVERSE GALLERY (AI GENERATED STYLIZED SHOWCASE)
+         ========================================================================== -->
+    <section class="multiverse-section" id="multiverse">
+      <div class="section-tag">MULTIVERSE OF VINAY</div>
+      <h2 class="section-title">THE 5 DIMENSIONS OF VINAY</h2>
+      <p class="section-desc">
+        Click on any stylized dimension to inspect the 4K avatar, unlock hidden lore, and celebrate his multiple talents.
+      </p>
+
+      <div class="gallery-grid">
+        <!-- 1. VIP Gold -->
+        <article class="persona-card" data-id="vip">
+          <div class="persona-img-box">
+            <span class="persona-badge">DIMENSION 01 • THE SOVEREIGN</span>
+            <div class="persona-inspect-btn">⤢</div>
+            <img src="assets/images/vinay_vip.jpg" alt="Vinay Golden VIP Birthday Edition" class="persona-img">
+          </div>
+          <div class="persona-info">
+            <h3 class="persona-title">The Golden VIP</h3>
+            <div class="persona-tagline">CHAPTER 20 • ROYALTY UNLOCKED</div>
+            <p class="persona-quote">"Elegance isn't worn, it's radiated. Entering the 20s with absolute confidence."</p>
+            <div class="persona-stats">
+              <span>✦ Drip: 100/100</span>
+              <span>✦ Aura: Radiant</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Cyberpunk Tech Wizard -->
+        <article class="persona-card" data-id="cyber">
+          <div class="persona-img-box">
+            <span class="persona-badge">DIMENSION 02 • TECH PRODIGY</span>
+            <div class="persona-inspect-btn">⤢</div>
+            <img src="assets/images/vinay_cyberpunk.jpg" alt="Vinay Cyberpunk Tech Wizard" class="persona-img">
+          </div>
+          <div class="persona-info">
+            <h3 class="persona-title">Cyber Architect</h3>
+            <div class="persona-tagline">TERMINAL VELOCITY • CODE SORCERER</div>
+            <p class="persona-quote">"Writing algorithms in the dark, building systems that redefine the world."</p>
+            <div class="persona-stats">
+              <span>✦ IQ: Supercharged</span>
+              <span>✦ Tech Stack: Unlimited</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. The Real Legend (Original Drip) -->
+        <article class="persona-card real-legend-card" data-id="real">
+          <div class="persona-img-box">
+            <span class="persona-badge" style="background: rgba(255, 215, 0, 0.2); border-color: #ffd700; color: #ffd700;">★ THE REAL LEGEND • 100% AUTHENTIC ★</span>
+            <div class="persona-inspect-btn">⤢</div>
+            <img src="assets/images/vinay_real.jpg" alt="Vinay Real Photo - Original Swag" class="persona-img">
+          </div>
+          <div class="persona-info">
+            <h3 class="persona-title">The Real Vinay</h3>
+            <div class="persona-tagline">ORIGINAL DRIP • THE BIRTHDAY KING</div>
+            <p class="persona-quote">"Behind every digital avatar is the true legend himself. Unmatched swagger, loyalty, and pure main character energy."</p>
+            <div class="persona-stats">
+              <span>✦ Authenticity: 100%</span>
+              <span>✦ Aura: Untouchable</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Anime Protagonist -->
+        <article class="persona-card" data-id="anime">
+          <div class="persona-img-box">
+            <span class="persona-badge">DIMENSION 04 • ANIME AWAKENING</span>
+            <div class="persona-inspect-btn">⤢</div>
+            <img src="assets/images/vinay_anime.jpg" alt="Vinay Anime Hero Level 20" class="persona-img">
+          </div>
+          <div class="persona-info">
+            <h3 class="persona-title">The Shonen Hero</h3>
+            <div class="persona-tagline">LIMIT BREAK • GOD MODE</div>
+            <p class="persona-quote">"Floating birthday cake fueled by birthday sparkler energy. No plot armor needed!"</p>
+            <div class="persona-stats">
+              <span>✦ Power Level: >9000</span>
+              <span>✦ Destiny: Heroic</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INTERACTIVE BIRTHDAY CAKE & CANDLE BLOW CEREMONY
+         ========================================================================== -->
+    <section class="cake-section" id="cake-chamber">
+      <div class="section-tag">RITUAL OF THE 20TH FLAME</div>
+      <h2 class="section-title">THE BIRTHDAY CAKE CEREMONY</h2>
+      <p class="cake-instructions">
+        Make a wish in your heart, then hit the blow button to extinguish the candles, trigger fireworks, and reveal your birthday prophecy!
+      </p>
+
+      <div class="cake-stage">
+        <!-- 3D Interactive Cake Component -->
+        <div class="cake-container">
+          <!-- Candles Row -->
+          <div class="candles-row">
+            <div class="candle">
+              <div class="flame"></div>
+              <div class="smoke"></div>
+            </div>
+            <div class="candle">
+              <div class="flame"></div>
+              <div class="smoke"></div>
+            </div>
+            <div class="candle">
+              <div class="flame"></div>
+              <div class="smoke"></div>
+            </div>
+            <div class="candle">
+              <div class="flame"></div>
+              <div class="smoke"></div>
+            </div>
+            <div class="candle">
+              <div class="flame"></div>
+              <div class="smoke"></div>
+            </div>
+          </div>
+
+          <!-- Cake Layers -->
+          <div class="cake-layer-top">
+            <div class="cake-drip"></div>
+          </div>
+          <div class="cake-layer-bottom">
+            <div class="cake-drip"></div>
+          </div>
+          <div class="cake-plate"></div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="blow-btn-wrap">
+          <button id="blow-candles-btn" class="blow-btn">
+            <span>💨 BLOW OUT THE CANDLES</span>
+          </button>
+          <button id="relight-candles-btn" class="relight-btn">
+            <span>✨ Relight Candles</span>
+          </button>
+        </div>
+
+        <!-- Secret Wish Reveal -->
+        <div id="wish-reveal" class="wish-reveal-box">
+          <div class="wish-badge">✦ OFFICIAL CHAPTER 20 PROPHECY ✦</div>
+          <div class="wish-text" id="random-wish-text"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         RPG CHARACTER ATTRIBUTES & STATS
+         ========================================================================== -->
+    <section class="stats-section" id="rpg-stats">
+      <div class="section-tag">CHARACTER ROSTER • VINAY</div>
+      <h2 class="section-title">RPG ATTRIBUTES & STATS</h2>
+      <p class="section-desc">
+        Maxed-out skill tree stats accumulated through 20 years of real-world grinding.
+      </p>
+
+      <div class="stats-grid">
+        <!-- Card 1: Core Specs -->
+        <div class="rpg-card">
+          <div class="rpg-card-header">
+            <div class="rpg-icon">⚡</div>
+            <div>
+              <h3 class="rpg-title">Combat & Charisma</h3>
+              <div class="rpg-level">CLASS: APEX CHAD</div>
+            </div>
+          </div>
+          <div class="stat-bars">
+            <div class="stat-row">
+              <div class="stat-meta">
+                <span class="stat-name">Swag / Drip Level</span>
+                <span class="stat-val">99 / 100</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 99%;"></div></div>
+            </div>
+            <div class="stat-row">
+              <div class="stat-meta">
+                <span class="stat-name">Charisma & Wit</span>
+                <span class="stat-val">97 / 100</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 97%;"></div></div>
+            </div>
+            <div class="stat-row">
+              <div class="stat-meta">
+                <span class="stat-name">Loyalty to Friends</span>
+                <span class="stat-val">100 / 100</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 100%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Technical Mastery -->
+        <div class="rpg-card">
+          <div class="rpg-card-header">
+            <div class="rpg-icon">💻</div>
+            <div>
+              <h3 class="rpg-title">Brainpower & Mastery</h3>
+              <div class="rpg-level">CLASS: ARCHMAGE CODER</div>
+            </div>
+          </div>
+          <div class="stat-bars">
+            <div class="stat-row">
+              <div class="stat-meta">
+                <span class="stat-name">Problem Solving IQ</span>
+                <span class="stat-val">98 / 100</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill violet" style="width: 98%;"></div></div>
+            </div>
+            <div class="stat-row">
+              <div class="stat-meta">
+                <span class="stat-name">Late-Night Coding Stamina</span>
+                <span class="stat-val">100 / 100</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill violet" style="width: 100%;"></div></div>
+            </div>
+            <div class="stat-row">
+              <div class="stat-meta">
+                <span class="stat-name">Snack Devour Speed</span>
+                <span class="stat-val">100 / 100</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill violet" style="width: 100%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Lore & Special Abilities -->
+        <div class="rpg-card">
+          <div class="rpg-card-header">
+            <div class="rpg-icon">👑</div>
+            <div>
+              <h3 class="rpg-title">Special Perks</h3>
+              <div class="rpg-level">STATUS: LEVEL 20 BUFFED</div>
+            </div>
+          </div>
+          <div class="stat-bars">
+            <div class="stat-row">
+              <div class="stat-meta">
+                <span class="stat-name">Main Character Energy</span>
+                <span class="stat-val">100%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill cyan" style="width: 100%;"></div></div>
+            </div>
+            <div class="stat-row">
+              <div class="stat-meta">
+                <span class="stat-name">Future Success Probability</span>
+                <span class="stat-val">99.9%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill cyan" style="width: 99.9%;"></div></div>
+            </div>
+            <div class="stat-row">
+              <div class="stat-meta">
+                <span class="stat-name">Brotherhood Trust</span>
+                <span class="stat-val">INFINITE ∞</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill cyan" style="width: 100%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PARTY SOUNDBOARD (INTERACTIVE AUDIO PADS)
+         ========================================================================== */
+    -->
+    <section class="soundboard-section" id="soundboard">
+      <div class="section-tag">LIVE DJ CONSOLE</div>
+      <h2 class="section-title">THE CELEBRATION SOUNDBOARD</h2>
+      <p class="section-desc">
+        Tap the pads below to trigger synthesized celebration sound effects, fireworks, and hyped reactions!
+      </p>
+
+      <div class="soundboard-grid">
+        <div class="sound-pad" data-sound="horn">
+          <div class="pad-icon">🎺</div>
+          <div class="pad-name">Party Horn</div>
+        </div>
+        <div class="sound-pad" data-sound="pop">
+          <div class="pad-icon">🍾</div>
+          <div class="pad-name">Champagne Pop</div>
+        </div>
+        <div class="sound-pad" data-sound="cheer">
+          <div class="pad-icon">👏</div>
+          <div class="pad-name">Crowd Applause</div>
+        </div>
+        <div class="sound-pad" data-sound="levelUp">
+          <div class="pad-icon">🎮</div>
+          <div class="pad-name">Level 20 Fanfare</div>
+        </div>
+        <div class="sound-pad" data-sound="blow">
+          <div class="pad-icon">💨</div>
+          <div class="pad-name">Candle Breeze</div>
+        </div>
+        <div class="sound-pad" data-sound="laser">
+          <div class="pad-icon">⚡</div>
+          <div class="pad-name">Laser Burst</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TRIBUTES & WISHES WALL
+         ========================================================================== -->
+    <section class="wishes-section" id="wishes-wall">
+      <div class="section-tag">BROTHERHOOD & TRIBUTES</div>
+      <h2 class="section-title">THE WALL OF WISHES</h2>
+      <p class="section-desc">
+        Heartfelt tributes from the inner circle. Feel free to leave your own birthday note for Vinay below!
+      </p>
+
+      <div class="wishes-container">
+        <!-- Form to Add Note -->
+        <div class="wish-form-card">
+          <h3 class="wish-form-title">Post a Birthday Wish 🎂</h3>
+          <p class="wish-form-desc">Leave a personalized message that will stay preserved on Vinay's celebration wall.</p>
+
+          <form id="wish-form">
+            <div class="form-group">
+              <label for="wish-author-input" class="form-label">Your Name</label>
+              <input type="text" id="wish-author-input" class="form-input" placeholder="e.g. Shashwat, Rohit, Alex..." required>
+            </div>
+            <div class="form-group">
+              <label for="wish-msg-input" class="form-label">Birthday Message</label>
+              <textarea id="wish-msg-input" class="form-textarea" placeholder="Drop your warmest wishes, funny memories, or hype message for Vinay..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">
+              <span>🚀 Post Birthday Tribute</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Feed of Wishes -->
+        <div class="wishes-feed" id="wishes-feed">
+          <!-- Populated by JavaScript with localStorage persistence -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       MODAL 4K IMAGE VIEWER
+       ========================================================================== -->
+  <div id="modal-viewer" role="dialog" aria-modal="true" aria-label="Avatar Inspector">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close-btn" aria-label="Close modal">✕</button>
+      <div class="modal-img-container">
+        <img id="modal-img" src="" alt="Vinay HD Avatar" class="modal-img">
+      </div>
+      <div class="modal-details">
+        <div>
+          <div class="badge-tag">✦ 4K DIGITAL MASTERPIECE ✦</div>
+          <h2 id="modal-title" style="font-size: 2rem; margin-bottom: 0.75rem; color: #fff;">Vinay Chapter 20</h2>
+          <div id="modal-desc" style="color: #94a3b8; line-height: 1.6;"></div>
+        </div>
+        <div style="margin-top: 2rem;">
+          <button onclick="window.soundFX && window.soundFX.cheer(); triggerFireworkBurst(window.innerWidth/2, window.innerHeight/2, 60, true);" class="btn-primary" style="width: 100%; justify-content: center;">
+            <span>🎉 Send Cheers To Vinay</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FLOATING BOTTOM HUD
+       ========================================================================== -->
+  <nav class="floating-hud" aria-label="Celebration Controls">
+    <button id="hud-confetti-btn" class="hud-btn" title="Blast Confetti Cannon">
+      <span>🎉</span>
+      <span>Confetti Blast</span>
+    </button>
+    <div class="hud-divider"></div>
+    <button id="hud-party-mode" class="hud-btn" title="Toggle Hyperspace Party Mode">
+      <span>⚡</span>
+      <span>Party Mode</span>
+    </button>
+    <div class="hud-divider"></div>
+    <a href="#cake-chamber" class="hud-btn" style="text-decoration: none;">
+      <span>🎂</span>
+      <span>Cake</span>
+    </a>
+  </nav>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <p>Crafted with love & adrenaline for <span class="footer-gold">Vinay's 20th Birthday</span> • Born 25 October 2006</p>
+    <p style="margin-top: 6px; font-size: 0.8rem; color: #64748b;">Chapter 20: May your code be bug-free, your fit always immaculate, and your victories infinite.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
